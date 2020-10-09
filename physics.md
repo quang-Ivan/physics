@@ -1,20 +1,12 @@
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
 # 错题
 
 ## 单摆
 
-对于一个摆长不变的摆，我们有$$T=2\pi\sqrt{\frac{l}{g}}$$
+对于一个摆长不变的摆，我们有
+
+$$
+T=2\pi\sqrt{\frac{l}{g}}
+$$
 
 若底下有木板铺满细沙经过，则有图像
 
@@ -38,7 +30,9 @@
 
 ![2.png](https://github.com/quang-Ivan/physics/blob/master/pic/2.png?raw=true)
 
-$$m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} $$
+$$
+m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} 
+$$
 
 这提示你，动量的改变量是个矢量，速度从-2到正2是需要冲量帮忙改变的。做的是4m的活
 
@@ -50,11 +44,15 @@ $$m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} $$
 
 ## 第一种情况
 
-无论m多大，加速度都不变，为$$a = gsin\theta -\mu gcos\theta$$
+无论m多大，加速度都不变，为
 
-其中$gsin\theta$是重力加速度在该方向的分量
+$$
+a = gsin\theta -\mu gcos\theta
+$$
 
-$\mu gcos\theta$则是求出来的
+其中$$gsin\theta$$是重力加速度在该方向的分量
+
+$$\mu gcos\theta$$则是求出来的
 
 ## 第二种情况
 
@@ -72,9 +70,17 @@ $\mu gcos\theta$则是求出来的
 
 ![10.png](https://github.com/quang-Ivan/physics/blob/master/pic/10.png?raw=true)
 
-有向心力$$F=mgtan\theta=m\omega^2htan\theta=m(\frac{2\pi}{T})^2htan\theta$$
+有向心力
 
-有周期$$T=2\pi \sqrt{\frac{h}{g}}$$
+$$
+F=mgtan\theta=m\omega^2htan\theta=m(\frac{2\pi}{T})^2htan\theta
+$$
+
+有周期
+
+$$
+T=2\pi \sqrt{\frac{h}{g}}
+$$
 
 只与高h有关
 
@@ -84,9 +90,16 @@ $\mu gcos\theta$则是求出来的
 
 物块受到垂直斜面的力F，从顶部下落到底部
 
-有摩擦力$$f=\mu (mgcos\theta+F)$$
+有摩擦力
 
-做功$$W=f\cdot x=f\frac{x_0}{cos\theta}=(\mu mg+\frac{F}{cos\theta})x_0$$
+$$
+f=\mu (mgcos\theta+F)
+$$
+
+做功
+
+$$
+W=f\cdot x=f\frac{x_0}{cos\theta}=(\mu mg+\frac{F}{cos\theta})x_0$$
 
 有结论，当F为0时，摩擦力做功只与横坐标的路程有关，与角度无关
 
@@ -108,15 +121,21 @@ $\mu gcos\theta$则是求出来的
 
 ![19.png](https://github.com/quang-Ivan/physics/blob/master/pic/19.png?raw=true)
 
-A点右侧受压强$p_1$，B点左侧受压强$p_2$
+A点右侧受压强$$p_1$$，B点左侧受压强$$p_2$$
 
-在$\Delta T$时间内左侧做功$p_1\Delta V$,右侧做功$-p_2\Delta V$
+在$$\Delta T$$时间内左侧做功$$p_1\Delta V$$,右侧做功$$-p_2\Delta V$$
 
-有$$\frac{1}{2}mv_1^2+mgh_1+p_1\Delta V-p_2\Delta V=\frac{1}{2}mv_2^2+mgh_2$$
+有
 
-也就是$$\frac{1}{2}mv^2+mgh+p\Delta V=C$$
+$$
+\frac{1}{2}mv_1^2+mgh_1+p_1\Delta V-p_2\Delta V=\frac{1}{2}mv_2^2+mgh_2$$
 
-在这里引入压力势能的概念$E_p=p\Delta V$
+也就是
+
+$$
+\frac{1}{2}mv^2+mgh+p\Delta V=C$$
+
+在这里引入压力势能的概念$$E_p=p\Delta V$$
 
 如何理解压力势能，可以想象这里有一个膜，这段流体一流过去
 
@@ -128,7 +147,7 @@ A点右侧受压强$p_1$，B点左侧受压强$p_2$
 
 水流是典型的定常流。对于一个自由落体的水柱来说
 
-$\Delta t$时间内流过一个横截面的V一样，但是底下越流越快
+$$\Delta t$$时间内流过一个横截面的V一样，但是底下越流越快
 
 所以越来越窄
 
@@ -138,13 +157,25 @@ $\Delta t$时间内流过一个横截面的V一样，但是底下越流越快
 
 不妨我们把视角放在流体的源头，或者叫流体的源（与“汇”相对偶的概念）
 
-我们知道，在任意相同的$\Delta t$时间内，流出的$\Delta M$一定相同
+我们知道，在任意相同的$$\Delta t$$时间内，流出的$$\Delta M$$一定相同
 
-则记$$\frac{\Delta M}{\Delta t}=M_0$$其中$M_0$为常数
+则记
 
-由于任意$\Delta t$，所以当$\Delta t \longrightarrow dt$时，仍成立
+$$
+\frac{\Delta M}{\Delta t}=M_0
+$$其中$$M_0$$为常数
 
-即$$\frac{dM}{dt}=M_0$$所以有$$\begin{array}{l}dM=M_0dt\\M=M_0t+C\end{array}$$
+由于任意$$\Delta t$$，所以当$$\Delta t \longrightarrow dt$$时，仍成立
+
+即
+
+$$
+\frac{dM}{dt}=M_0$$
+
+所以有
+
+$$
+\begin{array}{l}dM=M_0dt\\M=M_0t+C\end{array}$$
 
 物理意义在于流体的源的发出量与时间是一个一次函数关系
 
@@ -158,31 +189,55 @@ $\Delta t$时间内流过一个横截面的V一样，但是底下越流越快
 
 以及，上界为流体源，流体初速度为零，忽略空气阻力
 
-由定常流，有结论$$\begin{array}{l}dM=M_0dt\\M=M_0t\end{array}$$
+由定常流，有结论
 
-整体思路是，求出每一个$dM$的重力势能，再把它们按照高度都累积起来
+$$
+\begin{array}{l}dM=M_0dt\\M=M_0t\end{array}$$
 
-对于任意一个$dM$来说，其重力势能$$dE_p = ghdM$$
+整体思路是，求出每一个$$dM$$的重力势能，再把它们按照高度都累积起来
 
-可是M和h有什么关系呢？我们发现，$dM$落到h处的时间t可求
+对于任意一个$$dM$$来说，其重力势能
 
-由于米粒做自由落体运动，所以时间t有$$\begin{array}{l}h=\frac{1}{2}gt^2\\t=\sqrt{\frac{2h}{g}}\end{array}$$
+$$
+dE_p = ghdM$$
 
-而时间t和M又是有确切关系的，所以$$\begin{array}{l}\frac{dh}{dt}=gt=\sqrt{2gh}\\dt=\frac{dh}{\sqrt{2gh}}\end{array}$$
+可是M和h有什么关系呢？我们发现，$$dM$$落到h处的时间t可求
 
-$$dM=M_0dt=M_0\cdot \frac{1}{\sqrt{2gh}}dh$$
+由于米粒做自由落体运动，所以时间t有
 
-所以$$dE_p=ghdM=M_0\sqrt{\frac{g}{2}}h^{\frac{1}{2}}dh$$
+$$
+\begin{array}{l}h=\frac{1}{2}gt^2\\t=\sqrt{\frac{2h}{g}}\end{array}
+$$
 
-则$$E_p=\int_0^{h_0}M_0\sqrt{\frac{g}{2}}h^{\frac{1}{2}}dh=M_0\cdot \frac{2}{3}\sqrt{\frac{g}{2}}\sqrt{h_0}h_0$$
+而时间t和M又是有确切关系的，所以
 
-其中$$\begin{array}{l}\sqrt{h_0}=\sqrt{\frac{g}{2}}t_0\\M_0t_0=M_{total}\end{array}$$
+$$
+\begin{array}{l}\frac{dh}{dt}=gt=\sqrt{2gh}\\dt=\frac{dh}{\sqrt{2gh}}\end{array}$$
 
-$t_0$意思是在这个时间下落到$h_0$
+$$
+dM=M_0dt=M_0\cdot \frac{1}{\sqrt{2gh}}dh$$
+
+所以
+
+$$
+dE_p=ghdM=M_0\sqrt{\frac{g}{2}}h^{\frac{1}{2}}dh$$
+
+则
+
+$$
+E_p=\int_0^{h_0}M_0\sqrt{\frac{g}{2}}h^{\frac{1}{2}}dh=M_0\cdot \frac{2}{3}\sqrt{\frac{g}{2}}\sqrt{h_0}h_0$$
+
+其中
+
+$$
+\begin{array}{l}\sqrt{h_0}=\sqrt{\frac{g}{2}}t_0\\M_0t_0=M_{total}\end{array}$$
+
+$$t_0$$意思是在这个时间下落到$$h_0$$
 
 ***结论***
 
-$$E_p=\frac{1}{3}M_{total}gh_0$$
+$$
+E_p=\frac{1}{3}M_{total}gh_0$$
 
 最后再加个***负号***
 
@@ -232,7 +287,10 @@ $$E_p=\frac{1}{3}M_{total}gh_0$$
 
 推知，角速度必与月球相同。
 
-根据角速度的公式有$$\omega = \frac{GM}{R^3}$$
+根据角速度的公式有
+
+$$
+\omega = \frac{GM}{R^3}$$
 
 知道同一个中心天体的同一轨道上的物体的角速度相同
 
@@ -246,7 +304,8 @@ $$E_p=\frac{1}{3}M_{total}gh_0$$
 
 问做功需要写清正负，至于怎么判断做功，其实很简单
 
-$$E_0+W_f=E_0'$$
+$$
+E_0+W_f=E_0'$$
 
 这个式子是说，初状态的能量加别的力做的功等于末状态的能量
 
@@ -260,13 +319,19 @@ $$E_0+W_f=E_0'$$
 
 ## 对于任意势能
 
-有$$E_0-W_f=E_0'$$
+有
+
+$$
+E_0-W_f=E_0'$$
 
 等式的含义是，原有的势能减去该力对外做的功等于现在的势能
 
 或者说，势能把一部分拿出去做功去了
 
-或者写成$$W_f=-\Delta E$$
+或者写成
+
+$$
+W_f=-\Delta E$$
 
 ## 能量守恒的本质
 
@@ -292,7 +357,7 @@ $$E_0+W_f=E_0'$$
 
 首先在宇宙中选定一个绝对静止的参考系，因为在不同参考系里做功大小不同
 
-一个超人在空中以初速度$v_0$飞了起来，做抛体运动，到最高点的过程中
+一个超人在空中以初速度$$v_0$$飞了起来，做抛体运动，到最高点的过程中
 
 地球对超人的引力一直做负功，换言之，一直在阻碍超人运动
 
@@ -330,14 +395,20 @@ $$E_0+W_f=E_0'$$
 
 ![17.png](https://github.com/quang-Ivan/physics/blob/master/pic/17.png?raw=true)
 
-一开始$m_1$静止，$m_2$以$v_0$启动
+一开始$$m_1$$静止，$$m_2$$以$$v_0$$启动
 
-之后共速，期间由动量守恒$$\begin{array}{l}
+之后共速，期间由动量守恒
+
+$$
+\begin{array}{l}
 0+m_2\vec{v_0}=(m_1+m_2)\vec{v_1}\\
 \vec{v_1}=\frac{m_2}{m_1+m_2}\vec{v_0}
 \end{array}$$
 
-则$$\Delta E = \frac{1}{2}[(m_1+m_2)v_1^2-m_2v_0^2]=\frac{1}{2}m_2v_0^2(\frac{m_2}{m_1+m_2}-1)<0 $$
+则
+
+$$
+\Delta E = \frac{1}{2}[(m_1+m_2)v_1^2-m_2v_0^2]=\frac{1}{2}m_2v_0^2(\frac{m_2}{m_1+m_2}-1)<0 $$
 
 故有能量损失，损失在绳子的内能
 
@@ -373,7 +444,10 @@ $$E_0+W_f=E_0'$$
 
 ![5.png](https://github.com/quang-Ivan/physics/blob/master/pic/5.png?raw=true)
 
-M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_2$$
+M不动，由于两物块有向下的加速度，故M所受支持力
+
+$$
+R<M+m_1+m_2$$
 
 再来一个
 
@@ -393,7 +467,10 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 二，整体考虑，杆给了所有的支持力，同时左右不动，意味着左右力相互抵消
 
-力的叠加$$\sum_{i=1}^n\vec{F_i}=\sum_{i=1}^nm_i\vec a_i$$
+力的叠加
+
+$$
+\sum_{i=1}^n\vec{F_i}=\sum_{i=1}^nm_i\vec a_i$$
 
 ## 平抛
 
@@ -401,11 +478,20 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 如果问向上抛感觉很难，可以考虑其***逆过程***
 
-对于斜面平抛来说必有$$tan\theta=\frac{\frac{1}{2}gt^2}{v_0t}=\frac{gt}{2v_0}$$
+对于斜面平抛来说必有
 
-以及$$tan\alpha =\frac{gt}{v_0}$$
+$$
+tan\theta=\frac{\frac{1}{2}gt^2}{v_0t}=\frac{gt}{2v_0}$$
 
-立刻有$$tan\alpha =2tan\theta$$
+以及
+
+$$
+tan\alpha =\frac{gt}{v_0}$$
+
+立刻有
+
+$$
+tan\alpha =2tan\theta$$
 
 ### 结论
 
@@ -425,7 +511,10 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 ![18.png](https://github.com/quang-Ivan/physics/blob/master/pic/18.png?raw=true)
 
-以绳为方向可以有另一种矢量$$m_1\vec g -\vec T +\vec T-m_2\vec g=m_1\vec g -m_2\vec g=(m_1+m_2)\vec a$$
+以绳为方向可以有另一种矢量
+
+$$
+m_1\vec g -\vec T +\vec T-m_2\vec g=m_1\vec g -m_2\vec g=(m_1+m_2)\vec a$$
 
 由于矢量的方向只有沿绳的正负，因此又可以把矢量符号去掉。直接算模长
 
@@ -435,31 +524,25 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 由一个基本定理
 
-若$$\vec{\alpha_1},\vec{\alpha_2},\vec{\alpha_3}...\vec{\alpha_{n-1}},\vec{\alpha_m}$$
+若
 
-线性无关，且$$\vec{\alpha_1},\vec{\alpha_2}...\vec{\alpha_{n}},\vec{\alpha_{n+1}}$$线性相关
+$$
+\vec{\alpha_1},\vec{\alpha_2},\vec{\alpha_3}...\vec{\alpha_{n-1}},\vec{\alpha_m}$$
 
-则存在唯一的一组$$k_1,k_2...k_n,k_{n+1}$$使得
+线性无关，且
 
-$$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{n+1}}=0$$
+$$
+\vec{\alpha_1},\vec{\alpha_2}...\vec{\alpha_{n}},\vec{\alpha_{n+1}}$$线性相关
+
+则存在唯一的一组
+
+$$
+k_1,k_2...k_n,k_{n+1}$$使得
+
+$$
+k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{n+1}}=0$$
 
 说成人话就是一个n维向量可以被n个线性无关的基底唯一表示
-
-比如我想把(3,5)在(1,0)和(-1,1)方向分解
-
-得到$$\begin{bmatrix}  
-  3  \\  
-  5  \\  
-\end{bmatrix} 
-=
-\begin{bmatrix}  
-  1 & -1 \\  
-  0 & 1  
-\end{bmatrix}
-\begin{bmatrix}  
-  8  \\  
-  5   
-\end{bmatrix}  $$
 
 ***关键是要看看我们想要分解的量是由什么合成的，再根据那个分解即可***
 
@@ -471,7 +554,10 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 做选择题时一定要注意物理量，把它们写出来，要不然容易错
 
-比如$$\int Udt=R\int Idt=RQ$$
+比如
+
+$$
+\int Udt=R\int Idt=RQ$$
 
 这种事情写出来就一目了然了
 
@@ -491,7 +577,7 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 中学阶段只要说矢量的大小就是说模长，不分正负方向
 
-所以，向上$5m/s^2$比向下$9.8m/s^2$小
+所以，向上$$5m/s^2$$比向下$$9.8m/s^2$$小
 
 让你求一个力，注意到，力是一个***矢量***，所以，要把模长和方向都答出来
 
@@ -507,7 +593,10 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 最小就是mg，不能再小了，为了保证圆周运动，需要一个速度来抗衡它
 
-则$$\begin{array}{l}
+则
+
+$$
+\begin{array}{l}
 mg=m\frac{v^2}{r}\\
 v_{min}=\sqrt{gr}
 \end{array}$$
@@ -524,7 +613,9 @@ v_{min}=\sqrt{gr}
 
 小车过拱桥，这是一个只有推力没有拉力的模型，换句话说
 
-$$0\le v\le \sqrt{gr}$$
+$$
+0\le v\le \sqrt{gr}
+$$
 
 过了就飞了
 
@@ -566,13 +657,25 @@ $$0\le v\le \sqrt{gr}$$
 
 这意味着，C点和B点弹力一样
 
-再由弹簧的线性关系，其实B点的弹力就是$$T = k_0(x_0-x)$$x为原长
+再由弹簧的线性关系，其实B点的弹力就是
 
-有C$$T =k_1(x_1-x')$$x'为AC段原长
+$$
+T = k_0(x_0-x)$$x为原长
 
-且有$$\frac{x_0}{x_1}=\frac{x}{x'}=\frac{x_0-x}{x_1-x'}$$
+有C
 
-故$$\frac{k_1}{k_0}=\frac{x_0}{x_1}$$
+$$
+T =k_1(x_1-x')$$x'为AC段原长
+
+且有
+
+$$
+\frac{x_0}{x_1}=\frac{x}{x'}=\frac{x_0-x}{x_1-x'}$$
+
+故
+
+$$
+\frac{k_1}{k_0}=\frac{x_0}{x_1}$$
 
 也即，一段弹簧中，取的越短，劲度系数越大
 
@@ -580,31 +683,42 @@ $$0\le v\le \sqrt{gr}$$
 
 ![16.png](https://github.com/quang-Ivan/physics/blob/master/pic/16.png?raw=true)
 
-此时只需$$kx_0=mg$$为平衡位置就好了
+此时只需
+
+$$
+kx_0=mg$$
+
+为平衡位置就好了
 
 这是由于弹簧的线性
 
 ## 弹性势能
 
-表达式$$E_p = \frac{1}{2}kx^2$$
+表达式
+
+$$
+E_p = \frac{1}{2}kx^2$$
 
 由弹性势能表达式可以知道很多事
 
-比如，在$x_1$处无初速释放一个弹簧，必然能够到达原长对称的点
+比如，在$$x_1$$处无初速释放一个弹簧，必然能够到达原长对称的点
 
 就是弹性势能转化为动能，再变为势能的过程而已
 
 同理，弹簧在对称位置速度大小一定相同(无摩擦)
 
-由于x关于时间t是正弦型函数，那么$E_p$关于时间t也是正弦型函数，且是二倍角
+由于x关于时间t是正弦型函数，那么$$E_p$$关于时间t也是正弦型函数，且是二倍角
 
 有的时候考试不方便用等效的手段，就可以用能量来解释
 
 比如，借用等效的图，在原长放一个木块，问最低到多少，此时受力是什么
 
-可以列方程$$mgx=\frac{1}{2}kx^2$$
+可以列方程
 
-消掉一个x再乘以2就是此时的受力$2mg$,再除以k就是位置$\frac{2mg}{k}$
+$$
+mgx=\frac{1}{2}kx^2$$
+
+消掉一个x再乘以2就是此时的受力$$2mg$$,再除以k就是位置$$\frac{2mg}{k}$$
 
 # 小技巧
 
@@ -612,4 +726,5 @@ $$0\le v\le \sqrt{gr}$$
 
 拉力做功就是F乘以绳在力的方向移动的距离
 
-$$W=|\vec{F}|\cdot (OA-OB)$$
+$$
+W=|\vec{F}|\cdot (OA-OB)$$
