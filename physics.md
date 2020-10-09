@@ -1,16 +1,14 @@
-```python
-from __future__ import print_function, division
-import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-%matplotlib inline
-#%config InlineBackend.figure_format = 'svg'#输出图像时格式为svg矢量图
-#\usepackage{fontspec, xunicode, xltxtra}
-#\setmainfont{Microsoft YaHei}
-#加在tex文件里支持中文
-#输出选XeLaTeX
-#plt.figure(dpi=300)#输出大图
-```
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 
 # 错题
 
@@ -21,45 +19,13 @@ import matplotlib.pyplot as plt
 若底下有木板铺满细沙经过，则有图像
 
 
-```python
-# Silly example data
-bp_x = np.linspace(0, 2*np.pi, num=500, endpoint=True)
-bp_y = np.sin(bp_x)
-plt.figure(dpi=300)
-# Make the plot
-plt.plot(bp_x, bp_y, linewidth=2, linestyle="-",
-         color="blue", label=r"$\sin(x)$")
-plt.xlabel(r"Description of $t$ coordinate (units)")
-plt.ylabel(r"Description of $A$ coordinate (units)")
-plt.xlim(0, 2*np.pi)
-plt.ylim(-1.1, 1.1)
-plt.legend(loc="lower left")
-plt.show()
-```
 
-
-![png](output_5_0.png)
+![png](https://github.com/quang-Ivan/physics/blob/master/pic/output_5_0.png?raw=true)
 
 
 
-```python
-# Silly example data
-bp_x = np.linspace(0, 5*np.pi, num=1000, endpoint=True)
-bp_y = np.sin(bp_x)
-plt.figure(dpi=300)
-# Make the plot
-plt.plot(0.5*bp_x, bp_y, linewidth=2, linestyle="-",
-         color="blue", label=r"$\sin(x)$")
-plt.xlabel(r"Description of $t$ coordinate (units)")
-plt.ylabel(r"Description of $A$ coordinate (units)")
-plt.xlim(0, 2*np.pi)
-plt.ylim(-1.1, 1.1)
-plt.legend(loc="lower left")
-plt.show()
-```
 
-
-![png](output_6_0.png)
+![png](https://github.com/quang-Ivan/physics/blob/master/pic/output_6_0.png?raw=true)
 
 
 可以看出图一中单摆只走了一个周期，而图二中有两个周期
@@ -70,7 +36,7 @@ plt.show()
 
 ## 动量守恒定律
 
-![2.png](2.png)
+![2.png](https://github.com/quang-Ivan/physics/blob/master/pic/2.png?raw=true)
 
 $$m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} $$
 
@@ -78,7 +44,7 @@ $$m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} $$
 
 # 小结论
 
-![1.png](1.png)
+![1.png](https://github.com/quang-Ivan/physics/blob/master/pic/1.png?raw=true)
 
 斜面均有摩擦力且物块均会下滑，且斜面不动
 
@@ -104,7 +70,7 @@ $\mu gcos\theta$则是求出来的
 
 ### 圆锥摆
 
-![10.png](10.png)
+![10.png](https://github.com/quang-Ivan/physics/blob/master/pic/10.png?raw=true)
 
 有向心力$$F=mgtan\theta=m\omega^2htan\theta=m(\frac{2\pi}{T})^2htan\theta$$
 
@@ -114,7 +80,7 @@ $\mu gcos\theta$则是求出来的
 
 ### 摩擦力做功
 
-![11.png](11.png)
+![11.png](https://github.com/quang-Ivan/physics/blob/master/pic/11.png?raw=true)
 
 物块受到垂直斜面的力F，从顶部下落到底部
 
@@ -140,7 +106,7 @@ $\mu gcos\theta$则是求出来的
 
 伯努利方程实质上是流体的能量守恒
 
-![19.png](19.png)
+![19.png](https://github.com/quang-Ivan/physics/blob/master/pic/19.png?raw=true)
 
 A点右侧受压强$p_1$，B点左侧受压强$p_2$
 
@@ -186,7 +152,7 @@ $\Delta t$时间内流过一个横截面的V一样，但是底下越流越快
 
 这里以米粒定常流为例
 
-![20.png](20.png)
+![20.png](https://github.com/quang-Ivan/physics/blob/master/pic/20.png?raw=true)
 
 为方便讨论，以上界为零势面，之后所有算的重力势能先不加负号，算完了一起加
 
@@ -230,7 +196,7 @@ $$E_p=\frac{1}{3}M_{total}gh_0$$
 
 # 简单电路
 
-![3.png](3.png)
+![3.png](https://github.com/quang-Ivan/physics/blob/master/pic/3.png?raw=true)
 
 ## 限流电路
 
@@ -256,7 +222,7 @@ $$E_p=\frac{1}{3}M_{total}gh_0$$
 
 # 天体
 
-![4.png](4.png)
+![4.png](https://github.com/quang-Ivan/physics/blob/master/pic/4.png?raw=true)
 
 试问图中A点是否可能是拉格朗日点
 
@@ -306,7 +272,7 @@ $$E_0+W_f=E_0'$$
 
 能量守恒最本质也是最朴素的想法就是一种形式的能转化为另一种形式的能
 
-举例![13.png](13.png)
+举例![13.png](https://github.com/quang-Ivan/physics/blob/master/pic/13.png?raw=true)
 
 小物块的所有重力势能转化为了自己的动能和斜面的动能
 
@@ -350,7 +316,7 @@ $$E_0+W_f=E_0'$$
 
 所以要看一个东西的重力势能变化，只需要看初末势能即可
 
-![14.png](14.png)
+![14.png](https://github.com/quang-Ivan/physics/blob/master/pic/14.png?raw=true)
 
 如果你把一个吊在天花板的有质量的不可拉伸的绳弄直了
 
@@ -362,7 +328,7 @@ $$E_0+W_f=E_0'$$
 
 ## 能量损失
 
-![17.png](17.png)
+![17.png](https://github.com/quang-Ivan/physics/blob/master/pic/17.png?raw=true)
 
 一开始$m_1$静止，$m_2$以$v_0$启动
 
@@ -405,13 +371,13 @@ $$E_0+W_f=E_0'$$
 
 简单来说就是一个物块静止时受力平衡，但是加速运动时，有一部分不能平衡，它们被用于提供加速度
 
-![5.png](5.png)
+![5.png](https://github.com/quang-Ivan/physics/blob/master/pic/5.png?raw=true)
 
 M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_2$$
 
 再来一个
 
-![6.png](6.png)
+![6.png](https://github.com/quang-Ivan/physics/blob/master/pic/6.png?raw=true)
 
 两种分析思路
 
@@ -431,7 +397,7 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 ## 平抛
 
-![7.png](7.png)
+![7.png](https://github.com/quang-Ivan/physics/blob/master/pic/7.png?raw=true)
 
 如果问向上抛感觉很难，可以考虑其***逆过程***
 
@@ -457,7 +423,7 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 将二者结合在一起，我们可以得到一个新的系统，这个系统以绳为方向
 
-![18.png](18.png)
+![18.png](https://github.com/quang-Ivan/physics/blob/master/pic/18.png?raw=true)
 
 以绳为方向可以有另一种矢量$$m_1\vec g -\vec T +\vec T-m_2\vec g=m_1\vec g -m_2\vec g=(m_1+m_2)\vec a$$
 
@@ -513,7 +479,7 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 ***注意摩擦力的方向，它会来回变。***
 
-![12.png](12.png)
+![12.png](https://github.com/quang-Ivan/physics/blob/master/pic/12.png?raw=true)
 
 一个有摩擦的半圆弧，在左侧释放一个小球，容易知道机械能不断减小
 
@@ -533,7 +499,7 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 # 圆周运动
 
-![8.png](8.png)
+![8.png](https://github.com/quang-Ivan/physics/blob/master/pic/8.png?raw=true)
 
 ## 一
 
@@ -594,7 +560,7 @@ $$0\le v\le \sqrt{gr}$$
 
 ## 劲度系数
 
-![15.png](15.png)
+![15.png](https://github.com/quang-Ivan/physics/blob/master/pic/15.png?raw=true)
 
 高中讨论的都是轻质弹簧，且弹力处处相等
 
@@ -612,7 +578,7 @@ $$0\le v\le \sqrt{gr}$$
 
 ## 等效
 
-![16.png](16.png)
+![16.png](https://github.com/quang-Ivan/physics/blob/master/pic/16.png?raw=true)
 
 此时只需$$kx_0=mg$$为平衡位置就好了
 
@@ -642,7 +608,7 @@ $$0\le v\le \sqrt{gr}$$
 
 # 小技巧
 
-![9.png](9.png)
+![9.png](https://github.com/quang-Ivan/physics/blob/master/pic/9.png?raw=true)
 
 拉力做功就是F乘以绳在力的方向移动的距离
 
