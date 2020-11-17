@@ -18,13 +18,13 @@ print_background: false
 
 若底下有木板铺满细沙经过，则有图像
 
-![png](https://s1.ax1x.com/2020/10/13/0h5R8U.png)
+![png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/output_5_0.png)
 
 
 
 
 
-![png](https://s1.ax1x.com/2020/10/13/0h5rbn.png)
+![png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/output_6_0.png)
 
 
 可以看出图一中单摆只走了一个周期，而图二中有两个周期
@@ -35,7 +35,7 @@ print_background: false
 
 ## 动量守恒定律
 
-![2.png](https://s1.ax1x.com/2020/10/13/0hIISS.png)
+![2.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/2.png)
 
 $$m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} $$
 
@@ -43,7 +43,7 @@ $$m_1\vec{v_1}+m_2\vec{v_2}=m_1\vec{v_1'}+m_2\vec{v_2'} $$
 
 # 小结论
 
-![1.png](https://s1.ax1x.com/2020/10/13/0hITyQ.png)
+![1.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/1.png)
 
 斜面均有摩擦力且物块均会下滑，且斜面不动
 
@@ -69,7 +69,7 @@ $\mu gcos\theta$则是求出来的
 
 ### 圆锥摆
 
-![10.png](https://s1.ax1x.com/2020/10/13/0hoAFx.png)
+![10.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/10.png)
 
 有向心力$$F=mgtan\theta=m\omega^2htan\theta=m(\frac{2\pi}{T})^2htan\theta$$
 
@@ -79,7 +79,7 @@ $\mu gcos\theta$则是求出来的
 
 ### 摩擦力做功
 
-![11.png](https://s1.ax1x.com/2020/10/13/0hoVfK.png)
+![11.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/11.png)
 
 物块受到垂直斜面的力F，从顶部下落到底部
 
@@ -105,7 +105,7 @@ $\mu gcos\theta$则是求出来的
 
 伯努利方程实质上是流体的能量守恒
 
-![19.png](https://s1.ax1x.com/2020/10/13/0hIXF0.png)
+![19.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/19.png)
 
 A点右侧受压强$p_1$，B点左侧受压强$p_2$
 
@@ -151,7 +151,7 @@ $\Delta t$时间内流过一个横截面的V一样，但是底下越流越快
 
 这里以米粒定常流为例
 
-![20.png](https://s1.ax1x.com/2020/10/13/0hIvWT.png)
+![20.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/20.png)
 
 为方便讨论，以上界为零势面，之后所有算的重力势能先不加负号，算完了一起加
 
@@ -195,7 +195,7 @@ $$E_p=\frac{1}{3}M_{total}gh_0$$
 
 # 简单电路
 
-![3.png](https://s1.ax1x.com/2020/10/13/0hoSlF.png)
+![3.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/3.png)
 
 ## 限流电路
 
@@ -221,7 +221,7 @@ $$E_p=\frac{1}{3}M_{total}gh_0$$
 
 # 天体
 
-![4.png](https://s1.ax1x.com/2020/10/13/0hIzSU.png)
+![4.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/4.png)
 
 试问图中A点是否可能是拉格朗日点
 
@@ -273,7 +273,7 @@ $$E_0+W_f=E_0'$$
 
 举例
 
-![13.png](https://s1.ax1x.com/2020/10/13/0hIjYV.png)
+![13.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/13.png)
 
 小物块的所有重力势能转化为了自己的动能和斜面的动能
 
@@ -317,7 +317,7 @@ $$E_0+W_f=E_0'$$
 
 所以要看一个东西的重力势能变化，只需要看初末势能即可
 
-![14.png](https://s1.ax1x.com/2020/10/13/0hIoQg.png)
+![14.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/14.png)
 
 如果你把一个吊在天花板的有质量的不可拉伸的绳弄直了
 
@@ -329,7 +329,7 @@ $$E_0+W_f=E_0'$$
 
 ## 能量损失
 
-![17.png](https://s1.ax1x.com/2020/10/13/0hIbes.png)
+![17.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/17.png)
 
 一开始$m_1$静止，$m_2$以$v_0$启动
 
@@ -372,13 +372,13 @@ $$E_0+W_f=E_0'$$
 
 简单来说就是一个物块静止时受力平衡，但是加速运动时，有一部分不能平衡，它们被用于提供加速度
 
-![5.png](https://s1.ax1x.com/2020/10/13/0ho9OJ.png)
+![5.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/5.png)
 
 M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_2$$
 
 再来一个
 
-![6.png](https://s1.ax1x.com/2020/10/13/0hoPm9.png)
+![6.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/6.png)
 
 两种分析思路
 
@@ -398,7 +398,7 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 ## 平抛
 
-![7.png](https://s1.ax1x.com/2020/10/13/0hoiwR.png)
+![7.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/7.png)
 
 如果问向上抛感觉很难，可以考虑其 ***逆过程***
 
@@ -424,7 +424,7 @@ M不动，由于两物块有向下的加速度，故M所受支持力$$R<M+m_1+m_
 
 将二者结合在一起，我们可以得到一个新的系统，这个系统以绳为方向
 
-![18.png](https://s1.ax1x.com/2020/10/13/0hIqwn.png)
+![18.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/18.png)
 
 以绳为方向可以有另一种矢量$$m_1\vec g -\vec T +\vec T-m_2\vec g=m_1\vec g -m_2\vec g=(m_1+m_2)\vec a$$
 
@@ -464,7 +464,7 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 ***注意摩擦力的方向，它会来回变。***
 
-![12.png](https://s1.ax1x.com/2020/10/13/0hoeSO.png)
+![12.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/12.png)
 
 一个有摩擦的半圆弧，在左侧释放一个小球，容易知道机械能不断减小
 
@@ -484,7 +484,7 @@ $$k_1\vec{\alpha_1}+k_2\vec{\alpha_2}+...+k_n\vec{\alpha_n}+k_{n+1}\vec{\alpha_{
 
 # 圆周运动
 
-![8.png](https://s1.ax1x.com/2020/10/13/0hoEY6.png)
+![8.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/8.png)
 
 ## 一
 
@@ -545,7 +545,7 @@ $$0\le v\le \sqrt{gr}$$
 
 ## 劲度系数
 
-![15.png](https://s1.ax1x.com/2020/10/13/0hILoq.png)
+![15.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/15.png)
 
 高中讨论的都是轻质弹簧，且弹力处处相等
 
@@ -563,7 +563,7 @@ $$0\le v\le \sqrt{gr}$$
 
 ## 等效
 
-![16.png](https://s1.ax1x.com/2020/10/13/0hI7Lj.png)
+![16.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/16.png)
 
 此时只需$$kx_0=mg$$为平衡位置就好了
 
@@ -593,7 +593,7 @@ $$0\le v\le \sqrt{gr}$$
 
 # 小技巧
 
-![9.png](https://s1.ax1x.com/2020/10/13/0hoFT1.png)
+![9.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/9.png)
 
 拉力做功就是F乘以绳在力的方向移动的距离
 
@@ -605,7 +605,7 @@ $$W=|\vec{F}|\cdot (OA-OB)$$
 
 ### 从平面角说起
 
-![ANGLE.png](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/8e9de950-b730-4bc8-9fd3-3b26e56ed760.png)
+![ANGLE.png](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/ANGLE.png)
 
 在平面上，我们可以用弧度来表示两条直线张开的程度
 
@@ -615,7 +615,7 @@ $$W=|\vec{F}|\cdot (OA-OB)$$
 
 考虑极小的角$\angle BAC$（微元法）
 
-![21.jpg](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/4198aca3-d332-45b9-b2e7-a9e4dbec9cf5.jpg)
+![21.jpg](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/21.png)
 
 由于$\angle BAC$极小，所以$\vec{AB},\vec{AC}$以及其余由A点发出，终点在它们之间的向量的方向都近似相同。
 
@@ -635,7 +635,7 @@ CD长与弧长近似相等
 
 直观上来看就是一个类似锥形的东西，那就是立体角了
 
-![23.jpg](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/907d9b8e-e669-4f96-8afe-2858111c21af.jpg)
+![23.jpg](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/23.png)
 
 至于说为什么是平方。是因为球的表面积公式是$4\pi r^2$。这样一除，不就容易消掉东西了嘛
 
@@ -657,7 +657,7 @@ CD长与弧长近似相等
 
 ## 均匀球壳内部的场强
 
-![22.jpg](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/fd73df0c-447b-43e6-8751-19251324111b.jpg)
+![22.jpg](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/22.png)
 
 里面那个红色的，是一个密度均匀的球壳，任取一点P，球壳对它产生的场强在三个方向进行分解。由于球体完美的对称性，PH，PI方向不可能有场强，只需转动一下便知
 
@@ -697,7 +697,7 @@ $d\Omega$是立体角
 
 那如果点电荷在曲面外呢？我们回归二维来看看
 
-![24.jpg](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/c89461a7-4f35-4313-b10d-7d8575a0cda9.jpg)
+![24.jpg](https://cdn.jsdelivr.net/gh/quang-Ivan/physics@master/pics/24.png)
 
 要算闭合曲线关于点A所成的角度。一种理解是，先选一个点，沿着曲线走到尽头，看看最后弧度是多少，结果闭合曲线你找不到头或者说走一圈回来了，所以所张开的弧度是0.
 
