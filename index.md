@@ -13,7 +13,7 @@
 
 点击下载pdf，获取pdf文件
 
-[下载pdf](https://quang-ivan.github.io/physics/physics.pdf)
+[下载pdf](https://cdn.jsdelivr.net/gh/quang-Ivan/physics/physics.pdf)
 
 # 亟待解决的问题
 - 加载过于缓慢(因为加载的是整个带图的html文件。没钱用cdn加速，哭/(ㄒoㄒ)/~~)
